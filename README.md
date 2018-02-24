@@ -12,6 +12,7 @@ The limited number of supported elements, for the time being, are as follow:
 
 * Reset
 * Typography
+* Grid
 * Button
 * Alert
 * Table

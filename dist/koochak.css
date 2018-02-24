@@ -2,7 +2,7 @@
 /*!----------------------------------------------------------------
 - Koochak
 - A minimal & lightweight CSS framework
-- Version: 0.8.0
+- Version: 0.9.0
 - https://github.com/peyman3d/koochak
 -
 - Copyright © Peyman Eskandari 2018
@@ -466,4 +466,119 @@ table.bordered {
 table.bordered td,
 table.bordered th {
 	border: 1px solid #e8e9f0;
+}
+
+label {
+	font-size: .875rem;
+	font-weight: normal;
+
+	display: block;
+
+	max-width: 100%;
+	margin-bottom: 5px;
+
+	color: #2f3542;
+}
+
+input[type=text],
+input[type=email],
+input[type=file],
+input[type=number],
+input[type=password],
+input[type=tel],
+input[type=url],
+input[type=search] {
+	font-family: inherit;
+	font-size: .8125rem;
+	font-weight: normal;
+	line-height: inherit;
+
+	position: relative;
+
+	display: block;
+
+	width: 100%;
+	max-width: 100%;
+	height: 36px;
+	margin: 0;
+	margin-bottom: 10px; 
+	padding: .5rem .5rem;
+
+	-webkit-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+
+	color: #555555;
+	border: 1px solid #e8e9f0;
+	border-radius: 3px;
+	outline: 0;
+	background-color: #ffffff;
+}
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=file]:hover,
+input[type=number]:hover,
+input[type=password]:hover,
+input[type=tel]:hover,
+input[type=url]:hover,
+input[type=search]:hover {
+	border-color: #c9cddc;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=file]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+input[type=url]:focus,
+input[type=search]:focus {
+	color: #000000;
+	border-color: #3742fa;
+}
+input[type=text]:disabled,
+input[type=email]:disabled,
+input[type=file]:disabled,
+input[type=number]:disabled,
+input[type=password]:disabled,
+input[type=tel]:disabled,
+input[type=url]:disabled,
+input[type=search]:disabled {
+	cursor: not-allowed; 
+
+	opacity: .7;
+	border-color: #dddddd;
+	background: #eeeeee;
+}
+input[type=text].success,
+input[type=email].success,
+input[type=file].success,
+input[type=number].success,
+input[type=password].success,
+input[type=tel].success,
+input[type=url].success,
+input[type=search].success {
+	border-color: #2ed573;
+	background: #edfbf3;
+}
+input[type=text].error,
+input[type=email].error,
+input[type=file].error,
+input[type=number].error,
+input[type=password].error,
+input[type=tel].error,
+input[type=url].error,
+input[type=search].error {
+	border-color: #ff4757;
+	background: white;
+}
+input[type=text].warning,
+input[type=email].warning,
+input[type=file].warning,
+input[type=number].warning,
+input[type=password].warning,
+input[type=tel].warning,
+input[type=url].warning,
+input[type=search].warning {
+	border-color: #ffa502;
+	background: #fff7e8;
 }

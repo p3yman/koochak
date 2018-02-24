@@ -93,3 +93,38 @@ $table-border: 				1px solid $table-border-color;
 $table-bg: 					#fff;
 $table-head-bg: 			#fafafa;
 $table-box-shadow:			0 2px 4px rgba(#000, 0.05);
+
+
+///--- Form
+// Label
+$form-label-font-weight: 			normal;
+$form-label-font-size: 				rem(14);
+$form-label-color: 					$color-dark;
+$form-label-margin-bottom: 			5px;
+
+// Input
+$form-input-selector:				"input[type=text], input[type=email], input[type=file], input[type=number], input[type=password], input[type=tel], input[type=url], input[type=search]";
+$form-input-height:     			36px;
+$form-input-padding-y:				rem(8);
+$form-input-padding-x:				rem(8);
+$form-input-font-weight:    		normal;
+$form-input-font-family:    		inherit;
+$form-input-font-size:      		rem(13);
+$form-input-line-height:    		inherit;
+$form-input-placeholder-color: 		#caccd3;
+$form-input-color:					#555;
+$form-input-focus-color:			#000;
+$form-input-bg:						#fff;
+$form-input-border-color:			darken($color-light, 3%);
+$form-input-border:					1px solid $form-input-border-color;
+$form-input-border-hover-color:		darken($form-input-border-color, 10%);
+$form-input-border-focus-color:		$color-primary;
+$form-input-border-radius:			3px;
+$form-input-transition:				all 0.2s ease-in-out;
+$form-input-disabled-cursor:		not-allowed;
+$form-input-disabled-opacity:		0.7;
+$form-input-disabled-border-color:	#ddd;
+$form-input-disabled-bg:			#eee;
+$form-input-error-color:			$color-error;
+$form-input-success-color:			$color-success;
+$form-input-warning-color:			$color-danger;

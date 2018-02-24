@@ -5,6 +5,7 @@ Koochak is a minimal and lightweight CSS framework to be used easily in small pr
 Elements
 -------
 Koochak is not trying to be a complete UI framework. It just has basic elements to be fast and efficient. For now it support following elements:
+* Reset
 * Typography
 * Button
 * Alert

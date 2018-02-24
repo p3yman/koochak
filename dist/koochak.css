@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/*!----------------------------------------------------------------
+- Koochak
+- A minimal & lightweight CSS framework
+- Version: 0.4.0
+- https://github.com/peyman3d/koochak
+-
+- Copyright © Peyman Eskandari 2018
+- Licensed under the MIT License.
+-----------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	font: inherit;
+	font-size: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	vertical-align: baseline; 
+
+	border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-spacing: 0; 
+	border-collapse: collapse;
+}
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+
+	-webkit-text-size-adjust: 100%;
+	    -ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	        box-sizing: inherit;
+}
+
+body {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.6;
+
+	margin: 0;
+
+	color: #2f3542;
+	background-color: #ffffff;
+
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	-webkit-transition: .3s all ease-in-out;
+	     -o-transition: .3s all ease-in-out;
+	        transition: .3s all ease-in-out;
+	text-decoration: none;
+
+	color: #3742fa;
+	background-color: transparent;
+
+	-webkit-text-decoration-skip: objects;
+}
+a:hover {
+	text-decoration: none; 
+
+	color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.5;
+
+	margin: 0 0 10px; 
+
+	color: #2f3542;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small {
+	font-size: 80%;
+	font-weight: normal;
+	line-height: 1.5; 
+
+	color: #555555;
+}
+
+h1,
+.h1 {
+	font-size: 2rem;
+}
+
+h2,
+.h2 {
+	font-size: 1.75rem;
+}
+
+h3,
+.h3 {
+	font-size: 1.25rem;
+}
+
+h4,
+.h4 {
+	font-size: 1rem;
+}
+
+h5,
+.h5 {
+	font-size: .875rem;
+}
+
+h6,
+.h6 {
+	font-size: .8125rem;
+}
+
+p {
+	font-family: inherit;
+	font-weight: normal;
+
+	margin: 0 0 10px 0; 
+
+	color: #2f3542;
+}
+
+mark {
+	padding: 1px 3px; 
+
+	background: #f1f2f6;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+code {
+	font-family: "Courier New", monospace;
+	font-size: 100%;
+
+	padding: 3px 5px;
+
+	color: #ffffff;
+	border-radius: 3px;
+	background: #333333;
+
+	direction: ltr !important;
+}

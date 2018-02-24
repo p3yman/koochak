@@ -65,3 +65,9 @@ label{
 		background: lighten($form-input-warning-color, 45%);
 	}
 }
+
+// Checkbox & Radio
+input[type='checkbox'], input[type='radio'] {
+	display: inline;
+	margin-bottom: 10px;
+}

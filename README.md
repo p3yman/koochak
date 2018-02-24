@@ -1,4 +1,4 @@
-<img width="100%" src="https://cdn.rawgit.com/peyman3d/koochak/60b0febb/assets/readme-header.png" alt="Koochak - A minimal & lightweight CSS framework">
+<img src="https://cdn.rawgit.com/peyman3d/koochak/60b0febb/assets/readme-header.png" alt="Koochak - A minimal & lightweight CSS framework">
 
 Koochak
 =======

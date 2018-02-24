@@ -18,11 +18,11 @@ Koochak is not trying to be a complete UI framework. It just has basic elements 
 Installing
 ----------
 You can install Koochak by cloning it, download a released version or use github cdn to load it.
-* Clone
+* #####Clone
     * Clone this repo to your local machine using https://github.com/peyman3d/koochak.git
-* Download
+* #####Download
     * Download the [latest release](https://github.com/peyman3d/koochak/releases) file.
-* CDN
+* #####CDN
     * Add `<link href="https://cdn.rawgit.com/peyman3d/koochak/V[X.Y.Z]/dist/koochak.css" rel="stylesheet" type="text/css"/>` to your pages.
 
 License

@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/peyman3d/koochak/issues"
   },
-  "homepage": "https://github.com/peyman3d/koochak#readme"
+  "homepage": "https://github.com/peyman3d/koochak#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
 }

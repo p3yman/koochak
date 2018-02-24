@@ -54,3 +54,21 @@ $code-color:                #fff !default;
 $code-padding-y:            3px !default;
 $code-padding-x:            5px !default;
 $code-border-radius:        3px !default;
+
+///--- Button
+$button-height:       		36px;
+$button-bg:                 $color-primary;
+$button-color:              #fff;
+$button-font-weight:        normal;
+$button-font-family:        inherit;
+$button-font-size:          rem(13);
+$button-line-height:        1.1;
+$button-padding-y:          rem(10);
+$button-padding-x:          rem(16);
+$button-wide-padding-x:		rem(24);
+$button-border-radius:      3px;
+$button-transition:         0.3s all ease-in-out;
+$button-shadow:             0 1px 1px rgba(90,90,90,0.1);
+$button-shadow-active:      inset rgba(#000, 0.125) 0px 3px 5px, 0 2px 2px rgba(#000, 0);
+$button-disabled-cursor:    default;
+$button-disabled-opacity:   0.6;

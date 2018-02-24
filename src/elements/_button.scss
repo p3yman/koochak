@@ -1,0 +1,53 @@
+// Button
+//------------------------------------------------
+.button, button, button[type=submit], button[type=reset], button[type=button]{
+	cursor: pointer;
+	display: inline-block;
+	outline: 0;
+	border: 0;
+	height: $button-height;
+	vertical-align: middle;
+	background: $button-bg;
+	color: $button-color;
+	font-weight: $button-font-weight;
+	font-size: $button-font-size;
+	font-family: $button-font-family;
+	line-height: $button-line-height;
+	padding: $button-padding-y $button-padding-x;
+	text-transform: none;
+	text-shadow: none;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	border-radius: $button-border-radius;
+	box-shadow: $button-shadow;
+	user-select: none;
+	transition: $button-transition;
+	will-change: '';
+	-webkit-tap-highlight-color: transparent;
+	white-space: nowrap;
+	text-align: center;
+
+	// Hover
+	&:hover {
+		background: darken($button-bg, 15%);
+	}
+
+	// Active
+	&:active {
+		box-shadow: $button-shadow-active;
+	}
+
+	// Focus
+	&:focus{
+		outline: 0;
+	}
+
+	// Disable
+	&:disabled {
+		opacity: $button-disabled-opacity;
+		cursor: $button-disabled-cursor;
+		pointer-events: none;
+		box-shadow: none;
+	}
+}

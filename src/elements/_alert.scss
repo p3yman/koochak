@@ -1,0 +1,34 @@
+// Alert
+//------------------------------------------------
+.alert {
+	width: 100%;
+	background: $alert-bg;
+	border: $alert-border;
+	border-left: $alert-side-border;
+	border-radius: $alert-border-radius;
+	box-shadow: $alert-box-shadow;
+	padding: $alert-padding-y $alert-padding-x;
+	margin-bottom: $alert-margin-bottom;
+	position: relative;
+
+	p{
+		color: inherit;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	&.success{
+		color: darken($color-success, 10%);
+		border-left-color: $color-success;
+	}
+	&.error{
+		color: $color-error;
+		border-left-color: $color-error;
+	}
+	&.danger{
+		color: darken($color-danger, 5%);
+		border-left-color: $color-danger;
+	}
+}

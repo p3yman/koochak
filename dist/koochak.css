@@ -2,7 +2,7 @@
 /*!----------------------------------------------------------------
 - Koochak
 - A minimal & lightweight CSS framework
-- Version: 0.5.6
+- Version: 0.6.0
 - https://github.com/peyman3d/koochak
 -
 - Copyright © Peyman Eskandari 2018
@@ -378,4 +378,37 @@ button[type=button]:disabled {
 	opacity: .6;
 	-webkit-box-shadow: none;
 	        box-shadow: none;
+}
+
+.alert {
+	position: relative; 
+
+	width: 100%;
+	margin-bottom: 1rem;
+	padding: .875rem 1.125rem;
+
+	border: 1px solid #f1f2f6;
+	border-left: 4px solid #3742fa;
+	border-radius: 3px;
+	background: #ffffff;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	        box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+.alert p {
+	color: inherit;
+}
+.alert p:last-child {
+	margin-bottom: 0;
+}
+.alert.success {
+	color: #23ad5c;
+	border-left-color: #2ed573;
+}
+.alert.error {
+	color: #ff4757;
+	border-left-color: #ff4757;
+}
+.alert.danger {
+	color: #e89500;
+	border-left-color: #ffa502;
 }

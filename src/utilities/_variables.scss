@@ -73,3 +73,15 @@ $button-shadow:             0 1px 1px rgba(90,90,90,0.1);
 $button-shadow-active:      inset rgba(#000, 0.125) 0px 3px 5px, 0 2px 2px rgba(#000, 0);
 $button-disabled-cursor:    default;
 $button-disabled-opacity:   0.6;
+
+///--- Alert
+$alert-bg:                  #fff;
+$alert-border:              1px solid $color-light;
+$alert-border-radius:		3px;
+$alert-side-border:         4px solid $color-primary;
+$alert-box-shadow:          0 2px 4px rgba(#000, 0.1);
+$alert-padding-y:           rem(14);
+$alert-padding-x:           rem(18);
+$alert-margin-bottom:       1rem;
+$alert-fixed-space:         20px;
+$alert-font-size:			rem(13);

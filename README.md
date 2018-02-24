@@ -2,11 +2,14 @@
 
 Koochak
 =======
-Koochak is a minimal and lightweight CSS framework to be used easily in small projects like open sources projects. It uses default markups to select elements and give them minimum styles.
+Koochak is a minimal and lightweight CSS framework, optimized to be easily used on small open-source projects. Default markups are used to select elements and apply a number or minimalistic styles.
+
+Koochak is not meant to be a fullstack UI framework. That's the key reason of being super fast and effieinet on small projects.
 
 Elements
 -------
-Koochak is not trying to be a complete UI framework. It just has basic elements to be fast and efficient. For now it support following elements:
+The limited number of supported elements, for the time being, are as follow:
+
 * Reset
 * Typography
 * Button
@@ -15,15 +18,30 @@ Koochak is not trying to be a complete UI framework. It just has basic elements 
 * Form
 * Helpers
 
-Installing
+Installation
 ----------
-You can install Koochak by cloning it, download a released version or use github cdn to load it.
-* #####Clone
-    * Clone this repo to your local machine using https://github.com/peyman3d/koochak.git
-* #####Download
-    * Download the [latest release](https://github.com/peyman3d/koochak/releases) file.
-* #####CDN
-    * Add `<link href="https://cdn.rawgit.com/peyman3d/koochak/V[X.Y.Z]/dist/koochak.css" rel="stylesheet" type="text/css"/>` to your pages.
+
+Feel free to use Koochak into your great projects, via one of the following methods. 
+
+#### CDN
+
+Add the below link to the `<head>` area of your pages.
+
+```html
+<link href="https://cdn.rawgit.com/peyman3d/koochak/V[X.Y.Z]/dist/koochak.css" rel="stylesheet" type="text/css"/>
+```
+
+#### Clone
+
+Clone this repository using the below address, into your local machine:
+
+```
+https://github.com/peyman3d/koochak.git
+```
+
+#### Download
+
+Or simply download the [latest release](https://github.com/peyman3d/koochak/releases) file and enjoy using it.
 
 License
 -------

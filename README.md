@@ -23,7 +23,7 @@ Installation
 
 Feel free to use Koochak into your great projects, via one of the following methods. 
 
-##### CDN
+#### CDN
 
 Add the below link to the `<head>` area of your pages.
 
@@ -31,7 +31,7 @@ Add the below link to the `<head>` area of your pages.
 <link href="https://cdn.rawgit.com/peyman3d/koochak/V[X.Y.Z]/dist/koochak.css" rel="stylesheet" type="text/css"/>
 ```
 
-##### Clone
+#### Clone
 
 Clone this repository using the below address, into your local machine:
 
@@ -39,7 +39,7 @@ Clone this repository using the below address, into your local machine:
 https://github.com/peyman3d/koochak.git
 ```
 
-##### Download
+#### Download
 
 Or simply download the [latest release](https://github.com/peyman3d/koochak/releases) file and enjoy using it.
 

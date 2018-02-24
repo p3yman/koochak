@@ -81,3 +81,12 @@ ol{
 ul{
 	list-style: circle;
 }
+
+// hr
+hr{
+	display: inline-block;
+	width: 100%;
+	border: 0;
+	border-top: 1px solid darken($color-light, 5%);
+	margin: 20px 0;
+}

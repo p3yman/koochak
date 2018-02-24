@@ -2,7 +2,7 @@
 /*!----------------------------------------------------------------
 - Koochak
 - A minimal & lightweight CSS framework
-- Version: 0.9.1
+- Version: 0.9.2
 - https://github.com/peyman3d/koochak
 -
 - Copyright © Peyman Eskandari 2018
@@ -300,6 +300,16 @@ ol {
 
 ul {
 	list-style: circle;
+}
+
+hr {
+	display: inline-block;
+
+	width: 100%;
+	margin: 20px 0; 
+
+	border: 0;
+	border-top: 1px solid #e1e4ec;
 }
 
 .button,

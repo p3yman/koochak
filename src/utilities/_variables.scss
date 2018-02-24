@@ -79,9 +79,17 @@ $alert-bg:                  #fff;
 $alert-border:              1px solid $color-light;
 $alert-border-radius:		3px;
 $alert-side-border:         4px solid $color-primary;
-$alert-box-shadow:          0 2px 4px rgba(#000, 0.1);
+$alert-box-shadow:          0 2px 4px rgba(#000, 0.05);
 $alert-padding-y:           rem(14);
 $alert-padding-x:           rem(18);
 $alert-margin-bottom:       1rem;
 $alert-fixed-space:         20px;
 $alert-font-size:			rem(13);
+
+
+///--- Table
+$table-border-color: 		darken($color-light, 3%);
+$table-border: 				1px solid $table-border-color;
+$table-bg: 					#fff;
+$table-head-bg: 			#fafafa;
+$table-box-shadow:			0 2px 4px rgba(#000, 0.05);

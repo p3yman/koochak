@@ -2,7 +2,7 @@
 /*!----------------------------------------------------------------
 - Koochak
 - A minimal & lightweight CSS framework
-- Version: 0.7.0
+- Version: 0.8.0
 - https://github.com/peyman3d/koochak
 -
 - Copyright © Peyman Eskandari 2018
@@ -391,8 +391,8 @@ button[type=button]:disabled {
 	border-left: 4px solid #3742fa;
 	border-radius: 3px;
 	background: #ffffff;
-	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
-	        box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+	        box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
 }
 .alert p {
 	color: inherit;
@@ -411,4 +411,59 @@ button[type=button]:disabled {
 .alert.danger {
 	color: #e89500;
 	border-left-color: #ffa502;
+}
+
+table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 10px; 
+
+	border-spacing: 0;
+	border-collapse: collapse;
+
+	border-radius: 0;
+	background: #ffffff;
+}
+table thead,
+table tfoot {
+	background: #fafafa;
+}
+table thead td,
+table thead th,
+table tfoot td,
+table tfoot th {
+	color: #2f3542;
+	border-top: 0;
+	border-bottom: 0;
+}
+table thead {
+	border-bottom: 1px solid #e8e9f0;
+}
+table tfoot {
+	border-top: 1px solid #e8e9f0;
+}
+table td,
+table th {
+	font-size: .875rem; 
+
+	padding: 10px 8px;
+
+	text-align: left;
+	vertical-align: middle;
+
+	border-bottom: 1px solid #e8e9f0;
+}
+table th {
+	font-weight: bold;
+
+	color: #2f3542;
+}
+table.bordered {
+	border: 1px solid #e8e9f0;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+	        box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+}
+table.bordered td,
+table.bordered th {
+	border: 1px solid #e8e9f0;
 }

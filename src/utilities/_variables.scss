@@ -17,17 +17,17 @@ $direction: ltr;
 // Anchor
 $link-color:                $color-primary !default;
 $link-decoration:           none !default;
-$link-hover-color:          #000 !default;
+$link-hover-color:          $color-dark !default;
 $link-hover-decoration:     none !default;
-$link-transition:     		0.3s all ease-in-out !default;
+$link-transition:     		0.2s all ease-in-out !default;
 
 // Heading
-$heading-font-size:         32, 28, 20, 16, 14, 13 !default;
+$heading-font-size:         40, 32, 24, 20, 16, 14 !default;
 $heading-font-weight:       500 !default;
 $heading-color:             $color-dark !default;
 $heading-line-height:       1.5 !default;
 $heading-margin-bottom:     10px !default;
-$heading-small-font-size:   80% !default;
+$heading-small-font-size:   85% !default;
 $heading-small-font-weight: normal !default;
 $heading-small-color:       #555 !default;
 $heading-small-line-height: 1.5 !default;

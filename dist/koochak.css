@@ -2,7 +2,7 @@
 /*!----------------------------------------------------------------
 - Koochak
 - A minimal & lightweight CSS framework
-- Version: 0.9.2
+- Version: 0.9.3
 - https://github.com/peyman3d/koochak
 -
 - Copyright © Peyman Eskandari 2018
@@ -388,6 +388,52 @@ button[type=button]:disabled {
 	opacity: .6;
 	-webkit-box-shadow: none;
 	        box-shadow: none;
+}
+.button.alt,
+button.alt,
+button[type=submit].alt,
+button[type=reset].alt,
+button[type=button].alt {
+	color: #3742fa; 
+	border: 1px solid #3742fa;
+	background: none;
+}
+.button.alt:hover,
+button.alt:hover,
+button[type=submit].alt:hover,
+button[type=reset].alt:hover,
+button[type=button].alt:hover {
+	color: #ffffff; 
+	background: #3742fa;
+}
+.button.block,
+button.block,
+button[type=submit].block,
+button[type=reset].block,
+button[type=button].block {
+	width: 100%;
+}
+.button.small,
+button.small,
+button[type=submit].small,
+button[type=reset].small,
+button[type=button].small {
+	font-size: .6875rem;
+	font-weight: normal;
+
+	height: 24px;
+	padding: .3125rem .5rem;
+}
+.button.large,
+button.large,
+button[type=submit].large,
+button[type=reset].large,
+button[type=button].large {
+	font-size: 1rem;
+	line-height: 1;
+
+	height: 46px;
+	padding: .875rem 1.375rem;
 }
 
 .alert {

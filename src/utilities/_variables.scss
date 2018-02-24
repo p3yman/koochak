@@ -73,6 +73,16 @@ $button-shadow:             0 1px 1px rgba(90,90,90,0.1);
 $button-shadow-active:      inset rgba(#000, 0.125) 0px 3px 5px, 0 2px 2px rgba(#000, 0);
 $button-disabled-cursor:    default;
 $button-disabled-opacity:   0.6;
+$button-small-height:     	24px;
+$button-small-font-weight:  normal;
+$button-small-font-size:    rem(11);
+$button-small-padding-y:    rem(5);
+$button-small-padding-x:    rem(8);
+$button-large-height:     	46px;
+$button-large-font-size:    rem(16);
+$button-large-line-height:  1;
+$button-large-padding-y:    rem(14);
+$button-large-padding-x:    rem(22);
 
 ///--- Alert
 $alert-bg:                  #fff;

@@ -65,3 +65,19 @@ code{
 	border-radius: $code-border-radius;
 	direction: ltr !important;
 }
+
+// List
+ol, ul{
+	padding-left: 20px;
+	margin-bottom: 10px;
+
+	li{
+		padding-left: 10px;
+	}
+}
+ol{
+	list-style: decimal;
+}
+ul{
+	list-style: circle;
+}

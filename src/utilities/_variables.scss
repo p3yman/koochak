@@ -1,14 +1,56 @@
 // Variables
 //------------------------------------------------
 
-// Colors
+///--- Colors
 $color-primary:		#3742fa;
 $color-secondary:	#57606f;
-$color-light:		#fff;
+$color-light:		#f1f2f6;
 $color-dark:		#2f3542;
 $color-success:		#2ed573;
 $color-danger:		#ffa502;
 $color-error:		#ff4757;
 
-// Direction
+///--- Direction
 $direction: ltr;
+
+///--- Typography
+// Anchor
+$link-color:                $color-primary !default;
+$link-decoration:           none !default;
+$link-hover-color:          #000 !default;
+$link-hover-decoration:     none !default;
+$link-transition:     		0.3s all ease-in-out !default;
+
+// Heading
+$heading-font-size:         32, 28, 20, 16, 14, 13 !default;
+$heading-font-weight:       500 !default;
+$heading-color:             $color-dark !default;
+$heading-line-height:       1.5 !default;
+$heading-margin-bottom:     10px !default;
+$heading-small-font-size:   80% !default;
+$heading-small-font-weight: normal !default;
+$heading-small-color:       #555 !default;
+$heading-small-line-height: 1.5 !default;
+
+// Paragraph
+$p-font-family:           	inherit !default;
+$p-font-weight:				normal !default;
+$p-color:					$color-dark !default;
+$p-margin-bottom:           10px !default;
+
+// Mark
+$mark-bg:                   $color-light !default;
+$mark-padding-y:            1px !default;
+$mark-padding-x:            3px !default;
+
+// Strong
+$strong-font-weight:        bold !default;
+
+// Code
+$code-font-family:          "Courier New", monospace !default;
+$code-font-size:            100% !default;
+$code-bg:                   #333 !default;
+$code-color:                #fff !default;
+$code-padding-y:            3px !default;
+$code-padding-x:            5px !default;
+$code-border-radius:        3px !default;

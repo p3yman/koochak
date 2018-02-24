@@ -1,0 +1,24 @@
+{
+  "name": "koochak",
+  "version": "0.3.0",
+  "description": "A minimal & lightweight CSS framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peyman3d/koochak.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "ui"
+  ],
+  "author": "Peyman Eskandari (@peyman3d)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peyman3d/koochak/issues"
+  },
+  "homepage": "https://github.com/peyman3d/koochak#readme"
+}

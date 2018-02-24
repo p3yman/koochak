@@ -45,6 +45,7 @@ p{
 
 // Mark
 mark{
+	color: $mark-color;
 	background: $mark-bg;
 	padding: $mark-padding-y $mark-padding-x;
 }

@@ -39,7 +39,8 @@ $p-color:					$color-dark !default;
 $p-margin-bottom:           10px !default;
 
 // Mark
-$mark-bg:                   $color-light !default;
+$mark-color:                $color-dark !default;
+$mark-bg:                   #fbffeb !default;
 $mark-padding-y:            1px !default;
 $mark-padding-x:            3px !default;
 

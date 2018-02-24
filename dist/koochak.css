@@ -2,7 +2,7 @@
 /*!----------------------------------------------------------------
 - Koochak
 - A minimal & lightweight CSS framework
-- Version: 0.10.0
+- Version: 0.10.1
 - https://github.com/peyman3d/koochak
 -
 - Copyright © Peyman Eskandari 2018
@@ -312,6 +312,28 @@ hr {
 	border-top: 1px solid #e1e4ec;
 }
 
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
 .row {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -331,8 +353,7 @@ hr {
 }
 
 .col-1 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 8.33333%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 8.33333%;
@@ -340,8 +361,7 @@ hr {
 }
 
 .col-2 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 16.66667%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 16.66667%;
@@ -349,8 +369,7 @@ hr {
 }
 
 .col-3 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 25%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 25%;
@@ -358,8 +377,7 @@ hr {
 }
 
 .col-4 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 33.33333%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 33.33333%;
@@ -367,8 +385,7 @@ hr {
 }
 
 .col-5 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 41.66667%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 41.66667%;
@@ -376,8 +393,7 @@ hr {
 }
 
 .col-6 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 50%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 50%;
@@ -385,8 +401,7 @@ hr {
 }
 
 .col-7 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 58.33333%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 58.33333%;
@@ -394,8 +409,7 @@ hr {
 }
 
 .col-8 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 66.66667%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 66.66667%;
@@ -403,8 +417,7 @@ hr {
 }
 
 .col-9 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 75%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 75%;
@@ -412,8 +425,7 @@ hr {
 }
 
 .col-10 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 83.33333%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 83.33333%;
@@ -421,8 +433,7 @@ hr {
 }
 
 .col-11 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 91.66667%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 91.66667%;
@@ -430,12 +441,43 @@ hr {
 }
 
 .col-12 {
-	padding-right: 15px;
-	padding-left: 15px; 
+	max-width: 100%; 
 
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 100%;
 	    flex: 0 0 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+@media (max-width: 767px) {
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
+		width: 100%;
+	}
 }
 
 .button,

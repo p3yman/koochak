@@ -1,7 +1,7 @@
 /*!----------------------------------------------------------------
 - Koochak
 - A minimal & lightweight CSS framework
-- Version: 0.10.0
+- Version: 0.10.1
 - https://github.com/peyman3d/koochak
 -
 - Copyright © Peyman Eskandari 2018
@@ -11,6 +11,7 @@
 // Utilities
 //------------------------------------------------
 @import "utilities/functions";
+@import "utilities/mixins";
 @import "utilities/variables";
 
 // Elements

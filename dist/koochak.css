@@ -2,7 +2,7 @@
 /*!----------------------------------------------------------------
 - Koochak
 - A minimal & lightweight CSS framework
-- Version: 0.10.1
+- Version: 0.10.2
 - https://github.com/peyman3d/koochak
 -
 - Copyright © Peyman Eskandari 2018
@@ -342,6 +342,11 @@ hr {
 	margin-right: -15px;
 	margin-left: -15px;
 }
+@media (max-width: 767px) {
+	.row {
+		display: block;
+	}
+}
 
 .col {
 	padding-right: 15px;
@@ -350,6 +355,11 @@ hr {
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
 	    flex: 1;
+}
+@media (max-width: 767px) {
+	.col {
+		width: 100%;
+	}
 }
 
 .col-1 {
@@ -477,6 +487,7 @@ hr {
 	.col-11,
 	.col-12 {
 		width: 100%;
+		max-width: none;
 	}
 }
 

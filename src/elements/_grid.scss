@@ -20,11 +20,19 @@
 	display: flex;
 	margin-right: -15px;
 	margin-left: -15px;
+
+	@include bp(767, max){
+		display: block;
+	}
 }
 .col{
 	flex: 1;
 	padding-right: 15px;
 	padding-left: 15px;
+
+	@include bp(767, max){
+		width: 100%;
+	}
 }
 @for $i from 1 through 12 {
 	.col-#{$i}{
@@ -38,5 +46,6 @@
 
 	@include bp(767, max){
 		width: 100%;
+		max-width: none;
 	}
 }

@@ -1,6 +1,7 @@
 <img src="https://rawgit.com/peyman3d/koochak/master/assets/readme-header.png" alt="Koochak - A minimal & lightweight CSS framework">
 
-[![Semver](https://img.shields.io/github/release/peyman3d/koochak.svg)](http://semver.org/spec/v2.0.0.html)[![Forks](https://img.shields.io/github/forks/peyman3d/koochak.svg?style=social&logo=github&label=Fork)](https://github.com/peyman3d/koochak/network)[![Forks](https://img.shields.io/github/stars/peyman3d/koochak.svg?style=social&logo=github&label=Stars)](https://github.com/peyman3d/koochak/stargazers)
+[![Semver](https://img.shields.io/github/release/peyman3d/koochak.svg)](http://semver.org/spec/v2.0.0.html) [![Forks](https://img.shields.io/github/forks/peyman3d/koochak.svg?style=social&logo=github&label=Fork)](https://github.com/peyman3d/koochak/network) [![Forks](https://img.shields.io/github/stars/peyman3d/koochak.svg?style=social&logo=github&label=Stars)](https://github.com/peyman3d/koochak/stargazers) 
+[![npm](https://img.shields.io/npm/dt/koochak.svg)](https://www.npmjs.com/package/koochak)
 
 
 Koochak
@@ -41,6 +42,11 @@ Clone this repository using the below address, into your local machine:
 
 ```
 https://github.com/peyman3d/koochak.git
+```
+
+### Using npm
+```
+$ npm install koochak
 ```
 
 #### Download

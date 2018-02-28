@@ -1,6 +1,6 @@
 {
   "name": "koochak",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "A minimal & lightweight CSS framework",
   "main": "index.js",
   "scripts": {

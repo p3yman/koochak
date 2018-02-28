@@ -1,12 +1,12 @@
 # Contributing
 
-First off, thank you for considering contributing to Koochak. We want to make contributing to this project as easy and transparent as possible, whether it's:
+First off, thank you for considering to contributing to Koochak. We want to make contributing to this project as easy and transparent as possible, whether it's:
 
--Reporting a bug
--Discussing the current state of the code
--Submitting a fix
--Proposing new features
--Becoming a maintainer
+- Reporting a bug
+- Discussing the current state of the code
+- Submitting a fix
+- Proposing new features
+- Becoming a maintainer
 
 ## Report bugs using Github's [issues](https://github.com/peyman3d/koochak/issues)
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/peyman3d/koochak/issues/new); it's that easy!

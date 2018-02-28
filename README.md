@@ -1,7 +1,10 @@
 <img src="https://rawgit.com/peyman3d/koochak/master/assets/readme-header.png" alt="Koochak - A minimal & lightweight CSS framework">
 
-[![Semver](https://img.shields.io/github/release/peyman3d/koochak.svg)](http://semver.org/spec/v2.0.0.html) [![Forks](https://img.shields.io/github/forks/peyman3d/koochak.svg?style=social&logo=github&label=Fork)](https://github.com/peyman3d/koochak/network) [![Forks](https://img.shields.io/github/stars/peyman3d/koochak.svg?style=social&logo=github&label=Stars)](https://github.com/peyman3d/koochak/stargazers) 
-[![npm](https://img.shields.io/npm/dt/koochak.svg)](https://www.npmjs.com/package/koochak)
+
+[![Github All Releases](https://img.shields.io/github/downloads/peyman3d/koochak/total.svg)](https://github.com/peyman3d/koochak) 
+[![Github file size](https://img.shields.io/github/size/peyman3d/koochak/dist/koochak.min.css.svg)](https://github.com/peyman3d/koochak/blob/master/dist/koochak.min.css)
+ [![Semver](https://img.shields.io/github/release/peyman3d/koochak.svg)](http://semver.org/spec/v2.0.0.html) [![Forks](https://img.shields.io/github/forks/peyman3d/koochak.svg?style=social&logo=github&label=Fork)](https://github.com/peyman3d/koochak/network) [![Forks](https://img.shields.io/github/stars/peyman3d/koochak.svg?style=social&logo=github&label=Stars)](https://github.com/peyman3d/koochak/stargazers) 
+[![npm](https://img.shields.io/npm/dt/koochak.svg)](https://www.npmjs.com/package/koochak) ![license](https://img.shields.io/github/license/peyman3d/koochak.svg)
 
 
 Koochak

@@ -9,7 +9,7 @@ First off, thank you for considering contributing to Koochak. We want to make co
 -Becoming a maintainer
 
 ## Report bugs using Github's [issues](https://github.com/peyman3d/koochak/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/peyman3d/koochak/issues/new); it's that easy!
 
 ## Submitting a fix or proposing new features
 You can do this with this steps:

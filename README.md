@@ -1,5 +1,10 @@
 <img src="https://rawgit.com/peyman3d/koochak/master/assets/readme-header.png" alt="Koochak - A minimal & lightweight CSS framework">
 
+https://img.shields.io/github/release/peyman3d/koochak.svg
+https://img.shields.io/github/forks/peyman3d/koochak.svg?style=social&logo=github&label=Fork
+https://img.shields.io/github/stars/peyman3d/koochak.svg?style=social&logo=github&label=Stars
+
+
 Koochak
 =======
 Koochak is a minimal and lightweight CSS framework, optimized to be easily used on small open-source projects. Default markups are used to select elements and apply a number or minimalistic styles.

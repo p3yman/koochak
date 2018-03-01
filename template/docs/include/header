@@ -22,7 +22,9 @@
 
         <div class="container">
 
-
+            <a href="{{ MainROOT }}">
+                <img id="logo" src="{{ MainSTATIC }}/docs/img/logo.png" width="369">
+            </a>
 
         </div>
 

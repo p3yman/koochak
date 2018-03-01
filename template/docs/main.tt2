@@ -1,0 +1,6 @@
+
+{{ INCLUDE header }}
+
+    Hello world here
+
+{{ INCLUDE footer }}

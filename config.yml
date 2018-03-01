@@ -35,7 +35,7 @@ default_floor: docs
 ## template path root is /template
 ## if you want use a custom template for examle in /template/Custom_Template_Folde_Name
 #> template: Custom_Template_Folde_Name
-template: default-theme
+template: docs
 
 # default archive fields, like category, tag and ...
 # use for floors which haven't /config/FLOOR.yml or haven't filled or empty lists

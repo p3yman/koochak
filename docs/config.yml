@@ -1,0 +1,84 @@
+
+#general 'mira' config, you can make config files for any floor in /config/FLOOR_NAME.yml
+
+## Site settings
+title: Koochak Docs
+description: Documents of Koochack css framework
+
+author: Peyman Eskandari
+email: salam@peyman.me
+
+timezone: +03:30
+
+# the base hostname & protocol for your site
+url: https://peyman3d.github.io/koochak/docs
+root: /koochak
+static: /koochak/static
+imageurl: /koochak/static/img
+
+## default post permanent link
+permalink: :year/:month/:day/:title/
+
+
+default_markup: markdown
+
+## number of posts will be show in main index page
+post_num: all
+
+## number of posts will be show in archives index page
+archive_post_num: all
+
+## if create new entry without --floor switch with 'mira new', mira use this field
+default_floor: docs
+
+
+## template path root is /template
+## if you want use a custom template for examle in /template/Custom_Template_Folde_Name
+#> template: Custom_Template_Folde_Name
+template: default-theme
+
+# default archive fields, like category, tag and ...
+# use for floors which haven't /config/FLOOR.yml or haven't filled or empty lists
+lists:
+
+#namespace:
+#  veryverylongarchivename : vlan
+#  learnsections: learn
+#  mybooksButWithALongname: book
+#  aboutThisSite: about
+#  myPersonalDailyDiary: personal
+#  terminalCommandLearning: terminal
+
+social:
+ -  icon: twitter
+    name: twitter
+    url: https://twitter.com/Twitter_UserName
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+ -  icon: github
+    name: github
+    url: https://github.com/GitHub_UserName
+    desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+ -  icon: instagram
+    name: instagram
+    url: https://instagram.com/NAME
+    desc: Follow me
+    share_url:
+    share_title:
+    share_link:
+
+ -  icon: facebook-square
+    name: facebook
+    url: https://facebook.com/NAME
+    desc: Follow me
+    share_url:
+    share_title:
+    share_link:
+

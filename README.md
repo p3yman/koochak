@@ -58,4 +58,5 @@ Or simply download the [latest release](https://github.com/peyman3d/koochak/rele
 
 License
 -------
-Koochak is licensed under The MIT License. Please see [License File](https://github.com/peyman3d/koochak/blob/master/LICENSE) for more information.
+Koochak is open-sourced and licensed under the [MIT license](https://opensource.org/licenses/MIT).
+

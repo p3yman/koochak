@@ -1,0 +1,7 @@
+// Mixins
+//------------------------------------------------
+
+///--- Media query
+@mixin bp($width, $type: min) {
+	@media (#{$type}-width: $width + 'px') { @content; }
+}

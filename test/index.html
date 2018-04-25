@@ -14,10 +14,49 @@
         body{
             padding: 50px;
         }
+        .col-content{
+            text-align: center;
+            padding: 10px 5px;
+            background: #f1f2f6;
+            margin-bottom: 20px;
+        }
     </style>
 
 </head>
 <body>
+
+    <!-- Grid -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col"><div class="col-content">Test col</div></div>
+            <div class="col"><div class="col-content">Test col</div></div>
+        </div>
+        <div class="row">
+            <div class="col"><div class="col-content">Test col</div></div>
+            <div class="col"><div class="col-content">Test col</div></div>
+            <div class="col"><div class="col-content">Test col</div></div>
+        </div>
+        <div class="row">
+            <div class="col"><div class="col-content">Test col</div></div>
+            <div class="col"><div class="col-content">Test col</div></div>
+            <div class="col"><div class="col-content">Test col</div></div>
+            <div class="col"><div class="col-content">Test col</div></div>
+        </div>
+        <div class="row"><div class="col-1"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-2"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-3"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-4"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-5"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-6"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-7"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-8"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-9"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-10"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-11"><div class="col-content">Test col</div></div></div>
+        <div class="row"><div class="col-12"><div class="col-content">Test col</div></div></div>
+
+    </div>
 
     <!-- Form -->
     <div>
@@ -28,6 +67,13 @@
         <fieldset>
             <label for="email">Email</label>
             <input type="email" id="email" placeholder="Your email address">
+        </fieldset>
+        <fieldset>
+            <label>Gender</label>
+            <input type="radio" id="gender-1" name="gender">
+            <label for="gender-1" class="d-ib">Man</label>
+            <input type="radio" id="gender-2" name="gender">
+            <label for="gender-2" class="d-ib">Woman</label>
         </fieldset>
         <fieldset>
             <input type="checkbox" id="accept">
@@ -183,6 +229,11 @@
 
     <button>Test button</button>
     <button disabled>Test button</button>
+    <button class="alt">Test button</button>
+    <button class="small">Test button</button>
+    <button class="large">Test button</button>
+    <hr>
+    <button class="block">Test button</button>
 
 </body>
 </html>

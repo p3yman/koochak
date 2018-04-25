@@ -50,4 +50,37 @@
 		pointer-events: none;
 		box-shadow: none;
 	}
+
+	// Alternative
+	&.alt{
+		border: 1px solid $button-bg;
+		background: none;
+		color: $button-bg;
+
+		&:hover{
+			background: $button-bg;
+			color: #ffffff;
+		}
+	}
+
+	// Block
+	&.block{
+		width: 100%;
+	}
+
+	// Small
+	&.small {
+		height: $button-small-height;
+		font-weight: $button-small-font-weight;
+		font-size: $button-small-font-size;
+		padding: $button-small-padding-y $button-small-padding-x;
+	}
+	
+	// Large
+	&.large {
+		height: $button-large-height;
+		font-size: $button-large-font-size;
+		line-height: $button-large-line-height;
+		padding: $button-large-padding-y $button-large-padding-x;
+	}
 }
